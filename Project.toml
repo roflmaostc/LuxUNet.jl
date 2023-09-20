@@ -1,0 +1,13 @@
+name = "LuxUNet"
+uuid = "0d5f1109-9814-4e3d-8b7a-2f1a373ec51f"
+authors = ["roflmaostc <fxw+git@mailbox.org> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
